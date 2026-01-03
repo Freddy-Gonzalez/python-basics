@@ -75,3 +75,30 @@ para quienes quieren quieren aprender conceptos
 basicos de programacion con un 
 lenguaje de alto nivel"""
 print(texto2)
+
+
+# ejercicios dia 3
+# ejercicio 1
+email = "   Freddy.Gonzalez@GMAIL.com   "
+print(email.lower().strip())
+
+
+# ejercicio 2
+nombre = "Freddy"
+apellido = "Gonzalez"
+print(f"{nombre}_{apellido}".lower())
+
+# ejercicio 3
+# frase = "Python es simple pero poderoso"
+# print(frase[:])
+
+
+# ejercicio 4
+codigo = "ABC-123"
+print("-" in codigo)
+
+
+# ejercicio 5
+usuario = "freddy_gonzalez"
+email = "frddy.gonzalez@gmail.com"
+print(f"Usuario: {usuario} \nEmail: {email}")
